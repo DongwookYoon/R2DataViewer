@@ -1,5 +1,5 @@
 var SERVER_URL = 'https://richreview.net/';
-SERVER_URL = 'https://localhost:8000/';
+//SERVER_URL = 'https://localhost:8000/';
 
 function HandleError(error){
     console.log('fail', error);
