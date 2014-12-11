@@ -163,17 +163,9 @@ function GetRawData(callback){
 
 
 function Run(){
-    /*GetRawData(function(error, result){
+    GetRawData(function(error, result){
         Analysis_Cnt(result);
-        var x = 0;
-
     });
-    */
-    d3.select('#main').selectAll('p').data([1,2,3,2,1]).text(String).enter().append('p').text(function(d){return d+' new';});
-    var color = d3.scale.ordinal()
-        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
-    var d = color.domain();
-    x= 0;
 }
 
 Run();
